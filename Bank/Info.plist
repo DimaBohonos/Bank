@@ -2,6 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Oswald-Light.ttf</string>
+		<string>oswald-medium-5901e5bfca5b3.ttf</string>
+		<string>Oswald-Regular.ttf</string>
+		<string>SF-UI-Text-Regular.otf</string>
+		<string>SF-UI-Text-Semibold 15.50.58.ttf</string>
+		<string>SF-UI-Text-Semibold.ttf</string>
+		<string>SFUIDisplay-Regular.otf</string>
+		<string>SFUIDisplay-Thin.otf</string>
+		<string>SFUIText-Light.otf</string>
+		<string>SFUIText-Medium.otf</string>
+		<string>SFUIText-Regular.otf</string>
+		<string>fira-sans-extra-condensed-bold-58f899a7e708b.otf</string>
+		<string>fira-sans-extra-condensed-extralight-58f8987003185.otf</string>
+		<string>fira-sans-extra-condensed-light-58f898d0397b5.otf</string>
+		<string>fira-sans-extra-condensed-light-5901e598a26c7.otf</string>
+		<string>fira-sans-extra-condensed-medium-italic-58f89a0167eb9.otf</string>
+		<string>fira-sans-extra-condensed-regular-58f8992bf273b.otf</string>
+		<string>fira-sans-extra-condensed-regular-5901e6de38fb7.otf</string>
+		<string>FiraSansExtraCondensed-ExtraLightItalic.ttf</string>
+		<string>FiraSansExtraCondensed-Medium.ttf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

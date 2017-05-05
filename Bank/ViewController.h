@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)LoginButtonAction:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UITextField *telephoneTextField;
 
 @end
 

@@ -16,6 +16,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+    UIStoryboard* mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    //UIViewController *leftView = [mainStoryboard instantiateViewControllerWithIdentifier:@"LeftViewController"];
+    
+    UITableViewController* leftView = [mainStoryboard instantiateViewControllerWithIdentifier:@"LeftMenu"];
+    
+    UITableViewController *centerView = [mainStoryboard instantiateViewControllerWithIdentifier:@"Contact"];
+    
+    UINavigationController *leftNav = [[UINavigationController alloc] initWithRootViewController:leftView];
+    
+    UINavigationController *centerNav = [[UINavigationController alloc] initWithRootViewController:centerView];
+    
+    self.drawerController = [[MMDrawerController alloc] initWithCenterViewController:centerNav
+                                                            leftDrawerViewController:leftNav];
+    
+    
+    self.drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModePanningCenterView;
+    self.drawerController.closeDrawerGestureModeMask = MMCloseDrawerGestureModePanningCenterView;
+    
+   // _window.rootViewController = self.drawerController;
+    //[_window makeKeyAndVisible];
+    
+    
+    
     // Override point for customization after application launch.
     return YES;
 }

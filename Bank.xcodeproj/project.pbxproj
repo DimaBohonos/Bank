@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4437F4CC1EB36D2100AF5C10 /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437F4CB1EB36D2100AF5C10 /* ContactTableViewController.m */; };
+		4437F4CF1EB36D5800AF5C10 /* LeftMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437F4CE1EB36D5800AF5C10 /* LeftMenuTableViewController.m */; };
+		4437F4DE1EB36EB300AF5C10 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437F4D61EB36EB300AF5C10 /* MMDrawerBarButtonItem.m */; };
+		4437F4DF1EB36EB300AF5C10 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437F4D81EB36EB300AF5C10 /* MMDrawerController.m */; };
+		4437F4E01EB36EB300AF5C10 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437F4DB1EB36EB300AF5C10 /* MMDrawerVisualState.m */; };
+		4437F4E11EB36EB300AF5C10 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437F4DD1EB36EB300AF5C10 /* UIViewController+MMDrawerController.m */; };
 		4437F8381EB0D71800007A06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437F8371EB0D71800007A06 /* main.m */; };
 		4437F83B1EB0D71800007A06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437F83A1EB0D71800007A06 /* AppDelegate.m */; };
 		4437F83E1EB0D71800007A06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437F83D1EB0D71800007A06 /* ViewController.m */; };
@@ -15,6 +21,28 @@
 		4437F8461EB0D71800007A06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4437F8441EB0D71800007A06 /* LaunchScreen.storyboard */; };
 		4437F8511EB0D71800007A06 /* BankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437F8501EB0D71800007A06 /* BankTests.m */; };
 		4437F85C1EB0D71800007A06 /* BankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437F85B1EB0D71800007A06 /* BankUITests.m */; };
+		4437F86B1EB0DFB700007A06 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437F86A1EB0DFB700007A06 /* LoginViewController.m */; };
+		44F7446E1EB2269500A6C251 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44F744631EB2256900A6C251 /* Oswald-Light.ttf */; };
+		44F7446F1EB2269500A6C251 /* oswald-medium-5901e5bfca5b3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44F744641EB2256900A6C251 /* oswald-medium-5901e5bfca5b3.ttf */; };
+		44F744701EB2269500A6C251 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44F744651EB2256900A6C251 /* Oswald-Regular.ttf */; };
+		44F744711EB2269500A6C251 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44F744661EB2256900A6C251 /* SF-UI-Text-Regular.otf */; };
+		44F744721EB2269500A6C251 /* SF-UI-Text-Semibold 15.50.58.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44F744671EB2256900A6C251 /* SF-UI-Text-Semibold 15.50.58.ttf */; };
+		44F744731EB2269500A6C251 /* SF-UI-Text-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44F744681EB2256900A6C251 /* SF-UI-Text-Semibold.ttf */; };
+		44F744741EB2269500A6C251 /* SFUIDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44F744691EB2256900A6C251 /* SFUIDisplay-Regular.otf */; };
+		44F744751EB2269500A6C251 /* SFUIDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44F7446A1EB2256900A6C251 /* SFUIDisplay-Thin.otf */; };
+		44F744761EB2269500A6C251 /* SFUIText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44F7446B1EB2256900A6C251 /* SFUIText-Light.otf */; };
+		44F744771EB2269500A6C251 /* SFUIText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44F7446C1EB2256900A6C251 /* SFUIText-Medium.otf */; };
+		44F744781EB2269500A6C251 /* SFUIText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44F7446D1EB2256900A6C251 /* SFUIText-Regular.otf */; };
+		44F744821EB22EC100A6C251 /* fira-sans-extra-condensed-bold-58f899a7e708b.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44F744791EB22E1900A6C251 /* fira-sans-extra-condensed-bold-58f899a7e708b.otf */; };
+		44F744831EB22EC100A6C251 /* fira-sans-extra-condensed-extralight-58f8987003185.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44F7447A1EB22E1900A6C251 /* fira-sans-extra-condensed-extralight-58f8987003185.otf */; };
+		44F744841EB22EC100A6C251 /* fira-sans-extra-condensed-light-58f898d0397b5.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44F7447B1EB22E1900A6C251 /* fira-sans-extra-condensed-light-58f898d0397b5.otf */; };
+		44F744851EB22EC100A6C251 /* fira-sans-extra-condensed-light-5901e598a26c7.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44F7447C1EB22E1900A6C251 /* fira-sans-extra-condensed-light-5901e598a26c7.otf */; };
+		44F744861EB22EC100A6C251 /* fira-sans-extra-condensed-medium-italic-58f89a0167eb9.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44F7447D1EB22E1900A6C251 /* fira-sans-extra-condensed-medium-italic-58f89a0167eb9.otf */; };
+		44F744871EB22EC100A6C251 /* fira-sans-extra-condensed-regular-58f8992bf273b.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44F7447E1EB22E1900A6C251 /* fira-sans-extra-condensed-regular-58f8992bf273b.otf */; };
+		44F744881EB22EC100A6C251 /* fira-sans-extra-condensed-regular-5901e6de38fb7.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44F7447F1EB22E1900A6C251 /* fira-sans-extra-condensed-regular-5901e6de38fb7.otf */; };
+		44F744891EB22EC100A6C251 /* FiraSansExtraCondensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44F744801EB22E1900A6C251 /* FiraSansExtraCondensed-ExtraLightItalic.ttf */; };
+		44F7448A1EB22EC100A6C251 /* FiraSansExtraCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44F744811EB22E1900A6C251 /* FiraSansExtraCondensed-Medium.ttf */; };
+		44F7448D1EB232AB00A6C251 /* LogupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F7448C1EB232AB00A6C251 /* LogupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +63,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4437F4CA1EB36D2100AF5C10 /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewController.h; sourceTree = "<group>"; };
+		4437F4CB1EB36D2100AF5C10 /* ContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewController.m; sourceTree = "<group>"; };
+		4437F4CD1EB36D5800AF5C10 /* LeftMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuTableViewController.h; sourceTree = "<group>"; };
+		4437F4CE1EB36D5800AF5C10 /* LeftMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuTableViewController.m; sourceTree = "<group>"; };
+		4437F4D51EB36EB300AF5C10 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		4437F4D61EB36EB300AF5C10 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		4437F4D71EB36EB300AF5C10 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		4437F4D81EB36EB300AF5C10 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		4437F4D91EB36EB300AF5C10 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		4437F4DA1EB36EB300AF5C10 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		4437F4DB1EB36EB300AF5C10 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		4437F4DC1EB36EB300AF5C10 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		4437F4DD1EB36EB300AF5C10 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
 		4437F8331EB0D71800007A06 /* Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4437F8371EB0D71800007A06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4437F8391EB0D71800007A06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +92,30 @@
 		4437F8571EB0D71800007A06 /* BankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4437F85B1EB0D71800007A06 /* BankUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankUITests.m; sourceTree = "<group>"; };
 		4437F85D1EB0D71800007A06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4437F8691EB0DFB700007A06 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4437F86A1EB0DFB700007A06 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		44F744631EB2256900A6C251 /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		44F744641EB2256900A6C251 /* oswald-medium-5901e5bfca5b3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "oswald-medium-5901e5bfca5b3.ttf"; sourceTree = "<group>"; };
+		44F744651EB2256900A6C251 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		44F744661EB2256900A6C251 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		44F744671EB2256900A6C251 /* SF-UI-Text-Semibold 15.50.58.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold 15.50.58.ttf"; sourceTree = "<group>"; };
+		44F744681EB2256900A6C251 /* SF-UI-Text-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.ttf"; sourceTree = "<group>"; };
+		44F744691EB2256900A6C251 /* SFUIDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Regular.otf"; sourceTree = "<group>"; };
+		44F7446A1EB2256900A6C251 /* SFUIDisplay-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Thin.otf"; sourceTree = "<group>"; };
+		44F7446B1EB2256900A6C251 /* SFUIText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Light.otf"; sourceTree = "<group>"; };
+		44F7446C1EB2256900A6C251 /* SFUIText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.otf"; sourceTree = "<group>"; };
+		44F7446D1EB2256900A6C251 /* SFUIText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.otf"; sourceTree = "<group>"; };
+		44F744791EB22E1900A6C251 /* fira-sans-extra-condensed-bold-58f899a7e708b.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fira-sans-extra-condensed-bold-58f899a7e708b.otf"; sourceTree = "<group>"; };
+		44F7447A1EB22E1900A6C251 /* fira-sans-extra-condensed-extralight-58f8987003185.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fira-sans-extra-condensed-extralight-58f8987003185.otf"; sourceTree = "<group>"; };
+		44F7447B1EB22E1900A6C251 /* fira-sans-extra-condensed-light-58f898d0397b5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fira-sans-extra-condensed-light-58f898d0397b5.otf"; sourceTree = "<group>"; };
+		44F7447C1EB22E1900A6C251 /* fira-sans-extra-condensed-light-5901e598a26c7.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fira-sans-extra-condensed-light-5901e598a26c7.otf"; sourceTree = "<group>"; };
+		44F7447D1EB22E1900A6C251 /* fira-sans-extra-condensed-medium-italic-58f89a0167eb9.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fira-sans-extra-condensed-medium-italic-58f89a0167eb9.otf"; sourceTree = "<group>"; };
+		44F7447E1EB22E1900A6C251 /* fira-sans-extra-condensed-regular-58f8992bf273b.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fira-sans-extra-condensed-regular-58f8992bf273b.otf"; sourceTree = "<group>"; };
+		44F7447F1EB22E1900A6C251 /* fira-sans-extra-condensed-regular-5901e6de38fb7.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fira-sans-extra-condensed-regular-5901e6de38fb7.otf"; sourceTree = "<group>"; };
+		44F744801EB22E1900A6C251 /* FiraSansExtraCondensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansExtraCondensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		44F744811EB22E1900A6C251 /* FiraSansExtraCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansExtraCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		44F7448B1EB232AB00A6C251 /* LogupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogupViewController.h; sourceTree = "<group>"; };
+		44F7448C1EB232AB00A6C251 /* LogupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +143,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4437F4C91EB36CDE00AF5C10 /* ContactController */ = {
+			isa = PBXGroup;
+			children = (
+				4437F4CA1EB36D2100AF5C10 /* ContactTableViewController.h */,
+				4437F4CB1EB36D2100AF5C10 /* ContactTableViewController.m */,
+				4437F4CD1EB36D5800AF5C10 /* LeftMenuTableViewController.h */,
+				4437F4CE1EB36D5800AF5C10 /* LeftMenuTableViewController.m */,
+			);
+			name = ContactController;
+			sourceTree = "<group>";
+		};
+		4437F4D41EB36E9E00AF5C10 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				4437F4D51EB36EB300AF5C10 /* MMDrawerBarButtonItem.h */,
+				4437F4D61EB36EB300AF5C10 /* MMDrawerBarButtonItem.m */,
+				4437F4D71EB36EB300AF5C10 /* MMDrawerController.h */,
+				4437F4D81EB36EB300AF5C10 /* MMDrawerController.m */,
+				4437F4D91EB36EB300AF5C10 /* MMDrawerController+Subclass.h */,
+				4437F4DA1EB36EB300AF5C10 /* MMDrawerVisualState.h */,
+				4437F4DB1EB36EB300AF5C10 /* MMDrawerVisualState.m */,
+				4437F4DC1EB36EB300AF5C10 /* UIViewController+MMDrawerController.h */,
+				4437F4DD1EB36EB300AF5C10 /* UIViewController+MMDrawerController.m */,
+			);
+			name = MMDrawerController;
+			sourceTree = "<group>";
+		};
 		4437F82A1EB0D71800007A06 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +193,17 @@
 		4437F8351EB0D71800007A06 /* Bank */ = {
 			isa = PBXGroup;
 			children = (
+				4437F4D41EB36E9E00AF5C10 /* MMDrawerController */,
+				44F744621EB2253500A6C251 /* Fonts */,
 				4437F8391EB0D71800007A06 /* AppDelegate.h */,
 				4437F83A1EB0D71800007A06 /* AppDelegate.m */,
 				4437F83C1EB0D71800007A06 /* ViewController.h */,
 				4437F83D1EB0D71800007A06 /* ViewController.m */,
+				44F7448B1EB232AB00A6C251 /* LogupViewController.h */,
+				44F7448C1EB232AB00A6C251 /* LogupViewController.m */,
+				4437F8691EB0DFB700007A06 /* LoginViewController.h */,
+				4437F86A1EB0DFB700007A06 /* LoginViewController.m */,
+				4437F4C91EB36CDE00AF5C10 /* ContactController */,
 				4437F83F1EB0D71800007A06 /* Main.storyboard */,
 				4437F8421EB0D71800007A06 /* Assets.xcassets */,
 				4437F8441EB0D71800007A06 /* LaunchScreen.storyboard */,
@@ -138,6 +237,33 @@
 				4437F85D1EB0D71800007A06 /* Info.plist */,
 			);
 			path = BankUITests;
+			sourceTree = "<group>";
+		};
+		44F744621EB2253500A6C251 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				44F744631EB2256900A6C251 /* Oswald-Light.ttf */,
+				44F744641EB2256900A6C251 /* oswald-medium-5901e5bfca5b3.ttf */,
+				44F744791EB22E1900A6C251 /* fira-sans-extra-condensed-bold-58f899a7e708b.otf */,
+				44F7447A1EB22E1900A6C251 /* fira-sans-extra-condensed-extralight-58f8987003185.otf */,
+				44F7447B1EB22E1900A6C251 /* fira-sans-extra-condensed-light-58f898d0397b5.otf */,
+				44F7447C1EB22E1900A6C251 /* fira-sans-extra-condensed-light-5901e598a26c7.otf */,
+				44F7447D1EB22E1900A6C251 /* fira-sans-extra-condensed-medium-italic-58f89a0167eb9.otf */,
+				44F7447E1EB22E1900A6C251 /* fira-sans-extra-condensed-regular-58f8992bf273b.otf */,
+				44F7447F1EB22E1900A6C251 /* fira-sans-extra-condensed-regular-5901e6de38fb7.otf */,
+				44F744801EB22E1900A6C251 /* FiraSansExtraCondensed-ExtraLightItalic.ttf */,
+				44F744811EB22E1900A6C251 /* FiraSansExtraCondensed-Medium.ttf */,
+				44F744651EB2256900A6C251 /* Oswald-Regular.ttf */,
+				44F744661EB2256900A6C251 /* SF-UI-Text-Regular.otf */,
+				44F744671EB2256900A6C251 /* SF-UI-Text-Semibold 15.50.58.ttf */,
+				44F744681EB2256900A6C251 /* SF-UI-Text-Semibold.ttf */,
+				44F744691EB2256900A6C251 /* SFUIDisplay-Regular.otf */,
+				44F7446A1EB2256900A6C251 /* SFUIDisplay-Thin.otf */,
+				44F7446B1EB2256900A6C251 /* SFUIText-Light.otf */,
+				44F7446C1EB2256900A6C251 /* SFUIText-Medium.otf */,
+				44F7446D1EB2256900A6C251 /* SFUIText-Regular.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +372,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F744821EB22EC100A6C251 /* fira-sans-extra-condensed-bold-58f899a7e708b.otf in Resources */,
+				44F744831EB22EC100A6C251 /* fira-sans-extra-condensed-extralight-58f8987003185.otf in Resources */,
+				44F744841EB22EC100A6C251 /* fira-sans-extra-condensed-light-58f898d0397b5.otf in Resources */,
+				44F744851EB22EC100A6C251 /* fira-sans-extra-condensed-light-5901e598a26c7.otf in Resources */,
+				44F744861EB22EC100A6C251 /* fira-sans-extra-condensed-medium-italic-58f89a0167eb9.otf in Resources */,
+				44F744871EB22EC100A6C251 /* fira-sans-extra-condensed-regular-58f8992bf273b.otf in Resources */,
+				44F744881EB22EC100A6C251 /* fira-sans-extra-condensed-regular-5901e6de38fb7.otf in Resources */,
+				44F744891EB22EC100A6C251 /* FiraSansExtraCondensed-ExtraLightItalic.ttf in Resources */,
+				44F7448A1EB22EC100A6C251 /* FiraSansExtraCondensed-Medium.ttf in Resources */,
+				44F7446E1EB2269500A6C251 /* Oswald-Light.ttf in Resources */,
+				44F7446F1EB2269500A6C251 /* oswald-medium-5901e5bfca5b3.ttf in Resources */,
+				44F744701EB2269500A6C251 /* Oswald-Regular.ttf in Resources */,
+				44F744711EB2269500A6C251 /* SF-UI-Text-Regular.otf in Resources */,
+				44F744721EB2269500A6C251 /* SF-UI-Text-Semibold 15.50.58.ttf in Resources */,
+				44F744731EB2269500A6C251 /* SF-UI-Text-Semibold.ttf in Resources */,
+				44F744741EB2269500A6C251 /* SFUIDisplay-Regular.otf in Resources */,
+				44F744751EB2269500A6C251 /* SFUIDisplay-Thin.otf in Resources */,
+				44F744761EB2269500A6C251 /* SFUIText-Light.otf in Resources */,
+				44F744771EB2269500A6C251 /* SFUIText-Medium.otf in Resources */,
+				44F744781EB2269500A6C251 /* SFUIText-Regular.otf in Resources */,
 				4437F8461EB0D71800007A06 /* LaunchScreen.storyboard in Resources */,
 				4437F8431EB0D71800007A06 /* Assets.xcassets in Resources */,
 				4437F8411EB0D71800007A06 /* Main.storyboard in Resources */,
@@ -273,9 +419,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4437F4E11EB36EB300AF5C10 /* UIViewController+MMDrawerController.m in Sources */,
+				4437F4E01EB36EB300AF5C10 /* MMDrawerVisualState.m in Sources */,
+				4437F86B1EB0DFB700007A06 /* LoginViewController.m in Sources */,
+				4437F4DE1EB36EB300AF5C10 /* MMDrawerBarButtonItem.m in Sources */,
 				4437F83E1EB0D71800007A06 /* ViewController.m in Sources */,
 				4437F83B1EB0D71800007A06 /* AppDelegate.m in Sources */,
 				4437F8381EB0D71800007A06 /* main.m in Sources */,
+				4437F4CC1EB36D2100AF5C10 /* ContactTableViewController.m in Sources */,
+				44F7448D1EB232AB00A6C251 /* LogupViewController.m in Sources */,
+				4437F4DF1EB36EB300AF5C10 /* MMDrawerController.m in Sources */,
+				4437F4CF1EB36D5800AF5C10 /* LeftMenuTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +661,7 @@
 				4437F8621EB0D71800007A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4437F8631EB0D71800007A06 /* Build configuration list for PBXNativeTarget "BankTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +670,7 @@
 				4437F8651EB0D71800007A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4437F8661EB0D71800007A06 /* Build configuration list for PBXNativeTarget "BankUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +679,7 @@
 				4437F8681EB0D71800007A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
